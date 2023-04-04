@@ -7,4 +7,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resources\Fonts\Feonie-ywlMq.otf" />
+    <None Remove="Resources\Images\Feonie-ywlMq.otf" />
+    <None Remove="Resources\Images\VisionDetect.png" />
+    <None Remove="Resources\Images\WiseTopClient.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Fonts\Feonie-ywlMq.otf" />
+    <Resource Include="Resources\Images\Feonie-ywlMq.otf" />
+    <Resource Include="Resources\Images\VisionDetect.png" />
+    <Resource Include="Resources\Images\WiseTopClient.png" />
+  </ItemGroup>
+
 </Project>

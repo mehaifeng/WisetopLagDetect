@@ -1,0 +1,33 @@
+﻿<Window x:Class="WisetopLagDetecter.DetectView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WisetopLagDetecter"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="{x:Null}"
+        Height="160" Width="320">
+    <Window.Resources>
+        <FontFamily x:Key="feonie">
+            Pack://application:,,,;/Resources/Fonts/#feonie
+        </FontFamily>
+    </Window.Resources>
+    <Border
+        Margin="5"
+        Background="White"
+        CornerRadius="5">
+        <Grid>
+            <TextBlock
+                Text="WiseTopClient"
+                FontFamily="{DynamicResource feonie}"/>
+            <Image
+                Width="160"
+                Margin="0,10,0,0"
+                VerticalAlignment="Center"
+                Stretch="Uniform"
+                Source="Resources/Images/VisionDetect.png"/>
+        </Grid>
+    </Border>
+</Window>
