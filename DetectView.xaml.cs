@@ -24,5 +24,10 @@ namespace WisetopLagDetecter
         {
             InitializeComponent();
         }
+
+        private void VisionBorder_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }
